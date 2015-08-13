@@ -3,6 +3,15 @@
 This code book contains the result data variables in `tidy_data.txt`.
 and explains how to get `tidy_data.txt`.
 
+
+# Getting Work
+1. Reading data source txt files Using `read.table` function.
+2. Get column names in (mean, std) Using `grep` function, and Extracts measurements.
+3. Merge tables (x_test, y_test, subject) (x_train, y_train, subject) Using `cbind`, `rbind` function.
+4. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. (Using `ddply` function.)
+5. Writes a text file (tidy_data.txt) Using `write.table` function.
+
+
 # Variables
 
 ## Identifiers
@@ -100,12 +109,4 @@ the average of the following variables for each subject and each acti_ID_y.
 * `SITTING` (value `4`): test product performed sitting during the test
 * `STANDING` (value `5`): test product performed standing during the test
 * `LAYING` (value `6`): test product performed laying down during the test
-
-
-# Getting Work
-1. Reading data source txt files Using `read.table` function.
-2. Get column names in (mean, std) Using `grep` function, and Extracts measurements.
-3. Merge tables (x_test, y_test, subject) (x_train, y_train, subject) Using `cbind`, `rbind` function.
-4. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. (Using `ddply` function.)
-5. Writes a text file (tidy_data.txt) Using `write.table` function.
 
