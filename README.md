@@ -19,6 +19,6 @@ I create ```run_analysis.R``` that does the following.
 
 ## More : Dependencies
 
-```run_analysis.R``` file will install the dependencies automatically. It depends on ```reshape2``` and ```data.table``` packages. 
+```run_analysis.R``` file will install the dependencies automatically. It depends on ```plyr``` package. 
 
 ** More details on ```CodeBook.md```, Thank you.
