@@ -102,7 +102,7 @@ the average of the following variables for each subject and each acti_ID_y.
 * `fBodyBodyGyroJerkMagMeanFreq`
 
 ## Activity Labels
-- in tidy_data.txt a.k.a `acti_label_y` transformed by `acti_ID_y`
+in tidy_data.txt a.k.a `acti_label_y` transformed by `acti_ID_y`
 * `WALKING` (value `1`): test product performed walking during the test
 * `WALKING_UPSTAIRS` (value `2`): test product performed walking up a staircase during the test
 * `WALKING_DOWNSTAIRS` (value `3`): test product performed walking down a staircase during the test
