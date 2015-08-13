@@ -1,4 +1,4 @@
-# Getting and Cleaning Data
+# Introduction
 
 ## Course Project
 
