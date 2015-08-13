@@ -12,7 +12,7 @@ I create ```run_analysis.R``` that does the following.
 
 ## How to get tidy set and work on project
 
-1. Download the data source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+1. Download the data source. (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Put into a folder on local drive. I will get a ```UCI HAR Dataset``` folder.
 3. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```, then set it using ```setwd()``` function.
 4. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in my working directory.
